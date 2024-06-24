@@ -9,6 +9,7 @@ public class SquareRecursion {
             return 1;
         } else {
             return square(N - 1) + 2 * N - 1;
+
         }
     }
 }
