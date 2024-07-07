@@ -1,5 +1,7 @@
 //problrm : https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1
 
+import java.util.HashSet;
+
 class Solution {
     public static int doUnion(int a[], int n, int b[], int m) {
         // Create a HashSet to store unique elements

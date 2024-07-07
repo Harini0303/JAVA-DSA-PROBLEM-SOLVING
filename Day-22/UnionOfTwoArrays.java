@@ -4,6 +4,9 @@
 
 //arr1,arr2 : the arrays
 // n, m: size of arrays
+
+import java.util.ArrayList;
+
 class Solution {
     // Function to return a list containing the union of the two arrays.
     public static ArrayList<Integer> findUnion(int arr1[], int arr2[], int n, int m) {

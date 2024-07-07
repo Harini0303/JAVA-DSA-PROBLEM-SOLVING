@@ -1,5 +1,7 @@
 //https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
 
+import java.util.HashMap;
+
 class Compute {
     public String isSubset(long a1[], long a2[], long n, long m) {
         HashMap<Long, Integer> freqMap = new HashMap<>();

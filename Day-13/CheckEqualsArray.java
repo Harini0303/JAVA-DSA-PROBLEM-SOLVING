@@ -1,4 +1,6 @@
+
 //problem : https://www.geeksforgeeks.org/problems/check-if-two-arrays-are-equal-or-not3847/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+import java.util.HashMap;
 
 class Solution {
     // Function to check if two arrays are equal or not.

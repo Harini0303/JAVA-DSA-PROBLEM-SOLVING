@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1
 
 /*Complete the function below*/
+import java.util.Arrays;
 
 class Solution {
     // arr[]: input array

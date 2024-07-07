@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/next-permutation/description/
 
+import java.util.Arrays;
+
 class Solution {
     public void nextPermutation(int[] nums) {
 

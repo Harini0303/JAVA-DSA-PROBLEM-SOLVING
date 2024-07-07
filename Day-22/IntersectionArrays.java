@@ -1,5 +1,7 @@
 //https://www.geeksforgeeks.org/problems/intersection-of-two-arrays2404/1?itm_source=geeksforgeeks&itm_medium=Article&itm_campaign=bottom_sticky_on_Article
 
+import java.util.Arrays;
+
 class Solution {
     // Function to return the count of the number of elements in
     // the intersection of two arrays.
