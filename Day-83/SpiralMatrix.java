@@ -27,7 +27,11 @@ class Solution {
                 }
             }
             bottom--;
-
+            // to check if the matrix is a single column or a single row. So, whenever the
+            // elements in a single row are traversed they cannot be traversed again
+            // backward so the condition is checked in the right-to-left loop. When a single
+            // column is present, the condition is checked in the bottom-to-top loop as
+            // elements from bottom to top cannot be traversed again.
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
                     ls.add(matrix[i][left]);
