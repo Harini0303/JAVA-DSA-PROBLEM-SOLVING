@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/xor-queries-of-a-subarray/?envType=daily-question&envId=2024-09-13
 
+// XOR from left to right = prefix[right]XORprefix[left−1]
+
 class Solution {
     public int[] xorQueries(int[] arr, int[][] queries) {
         int n = arr.length;
